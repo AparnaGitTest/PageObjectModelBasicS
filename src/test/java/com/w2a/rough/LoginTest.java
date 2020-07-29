@@ -12,13 +12,11 @@ import com.w2a.pages.crm.accounts.CreateAccountPage;
 
 
 public class LoginTest extends Page {
-//Using EGIT plugin
-	//tesr//
-	//again
-	//again
+
 	
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	//Just Test
 		HomePage home=new HomePage();
 		LoginPage lp=home.goToLogin();
 		ZohoAppPage Zp=lp.doLogin("aparna_acharya1989@yahoo.in", "thistimefinal");
@@ -26,10 +24,7 @@ public static void main(String[] args) {
 		AccountPage account=Page.menu.gotoAccounts();
 		CreateAccountPage cap=account.gotoCreateAccounts();
 		cap.CreateAccount("Aparna");
-		
-		
-		
-		
+			
 	
 	}
 
